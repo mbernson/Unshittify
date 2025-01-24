@@ -17,7 +17,6 @@ function unshittify() {
 	var words = ['trump','wilders','musk'];
 	var i = 0;
 	while (i < papers.length) {
-		console.log(papers[i][0])
 		var url = 'https://www.' + papers[i][0];
 		var url1 = 'https://' + papers[i][0];
 		var qs = document.querySelectorAll(papers[i][1]);
@@ -29,12 +28,13 @@ function unshittify() {
 
 
 }
-unshittify();
 window.addEventListener("load",function(){
 	unshittify();
 	setTimeout(function(){unshittify()},1500);
-//    setTimeout(function(){unshittify()},5000);
 });
+unshittify();
+setTimeout(function(){unshittify()},500);
+setTimeout(function(){unshittify()},1500);
 
 function doIt(para,words) {
 	var i = 0;
