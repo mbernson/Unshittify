@@ -1,7 +1,7 @@
 function unshittify() {
 	'use strict';
 	var papers = [
-		['nrc.nl', ":not(body)[data-article-type],.nmt-item--latest-news,article.vorm__article"],
+		['nrc.nl', ":not(body)[data-article-type],.nmt-item--latest-news,article.vorm__article,li[data-article-type]"],
 		['parool.nl', "[data-topic],article#article-content > *,.section__header"],
 		['volkskrant.nl',"[data-topic],article#article-content > *,.section__header"],
 		['trouw.nl',"[data-topic],article#article-content > *,.section__header"],
