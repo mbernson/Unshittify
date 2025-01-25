@@ -8,6 +8,8 @@ function unshittify() {
 		['ad.nl',".ankeiler,li.tile,.article,.comments__list-item"],
 		['nos.nl',".ewQaSS,li[class^='sc-'],html:has([content='article']) main,html:has([content='video']) main"],
 		['telegraaf.nl',"[data-vr-contentbox],.EditorsChoiceTeaser,.ColumnsTeaser"],
+		['demorgen.be',"[data-topic],article#article-content > *,.section__header"],
+		['standaard.be',"[data-mht-block] > div,[data-testid='article-teaser-list-item'],[data-mht-block='article-detail__article-body']"],
 		['theguardian.com', "li[class^='dcr-'],article[class^='dcr-'],h2[class^='dcr-']"],
 		['nytimes.com', ".story-wrapper,a[class*='css-']"],
 		['edition.cnn.com','.container_lead-package,.container__item,h1#maincontent,main.article__main'],
@@ -28,10 +30,7 @@ function unshittify() {
 
 
 }
-window.addEventListener("load",function(){
-	unshittify();
-	setTimeout(function(){unshittify()},1500);
-});
+
 unshittify();
 setTimeout(function(){unshittify()},500);
 setTimeout(function(){unshittify()},1500);
