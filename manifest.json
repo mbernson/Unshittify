@@ -16,7 +16,8 @@
 	},
 	"browser_specific_settings": {
 	  "gecko": {
-		"id": "{5ac2baf2-243b-4e83-ae13-33c72eca181e}"
+		"id": "{5ac2baf2-243b-4e83-ae13-33c72eca181e}",
+		"update_url": "https://vasilis.codeberg.page/Unshittify/updates.json"
 	  }
 	}
 }
