@@ -7,6 +7,7 @@ function unshittify() {
 		['trouw.nl',"[data-topic],article#article-content > *,.section__header"],
 		['ad.nl',".ankeiler,li.tile,.article,.comments__list-item"],
 		['nos.nl',".ewQaSS,li[class^='sc-'],html:has([content='article']) main,html:has([content='video']) main"],
+		['nu.nl',".contentlist__item,[data-gtm='article']"],
 		['telegraaf.nl',"[data-vr-contentbox],.EditorsChoiceTeaser,.ColumnsTeaser"],
 		['demorgen.be',"[data-topic],article#article-content > *,.section__header"],
 		['standaard.be',"[data-mht-block] > div,[data-testid='article-teaser-list-item'],[data-mht-block='article-detail__article-body']"],
@@ -50,7 +51,7 @@ function replaceShittyElement(para){
 	para.style.background = 'hsl('+getRandomInt(1,360)+', 50%, 50%)';
 	para.style.position = 'relative';
 	para.style.overflow = 'hidden';
-	para.style.minHeight = '100px';
+	para.style.minHeight = '1.414rem';
 	para.querySelector('div').style.background = 'hsl('+getRandomInt(1,360)+', 50%, 50%)';
 	para.querySelector('div').style.position = 'absolute';
 	var w = getRandomInt(10,90);
