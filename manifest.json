@@ -1,6 +1,6 @@
 {
   "manifest_version":2,
-  "version":"0.3.1",
+  "version":"0.3.2",
   "name":"Unshittify",
   "description": "Replaces news about some shitty people with colours. Some newspapers are hooked on certain politicians who are experts in getting all the attention. With this add-on articles with these people will be replaced with colourful rectangles. It works on some sites.",
   "content_scripts":[
