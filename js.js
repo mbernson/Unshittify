@@ -51,7 +51,7 @@ function replaceShittyElement(para){
 	para.style.background = 'hsl('+getRandomInt(1,360)+', 50%, 50%)';
 	para.style.position = 'relative';
 	para.style.overflow = 'hidden';
-	para.style.minHeight = '1.414rem';
+	para.style.minHeight = '100px';
 	para.querySelector('div').style.background = 'hsl('+getRandomInt(1,360)+', 50%, 50%)';
 	para.querySelector('div').style.position = 'absolute';
 	var w = getRandomInt(10,90);
