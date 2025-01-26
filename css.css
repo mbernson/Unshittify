@@ -5,15 +5,21 @@ body {
 	font-family: "Nara 20", serif;
 	font-size: 1.414em;
 }
+@media (width < 35em) {
+	body {
+		margin: 5.55555vh auto;
+		padding: 0 5.55555vw;
+	}
+}
 h1, h2 {
 	font-family: "Fedra Sans Display Heavy", sans-serif;
+	text-wrap: balance;
 }
 h1 {
 	margin-block-start: 0;
 }
 h2 {
 	margin: 1.414em 0 0;
-	text-wrap: balance;
 }
 h2 + p {
 	margin-block-start: 0;
