@@ -14,12 +14,14 @@ body {
 h1, h2 {
 	font-family: "Fedra Sans Display Heavy", sans-serif;
 	text-wrap: balance;
+	line-height: 1;
 }
 h1 {
 	margin-block-start: 0;
 }
 h2 {
 	margin: 1.414em 0 0;
+	
 }
 h2 + p {
 	margin-block-start: 0;
