@@ -23,8 +23,9 @@ h2 {
 	margin: 1.414em 0 0;
 	
 }
-h2 + p {
-	margin-block-start: 0;
+h2 + p,
+h2 + details {
+	margin-block-start: .5em;
 }
 p {
 	text-wrap: pretty;
