@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DA0E962D54BC980019AE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0E952D54BC980019AE37 /* AppDelegate.swift */; };
+		D5DA0E982D54BC980019AE37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0E972D54BC980019AE37 /* SceneDelegate.swift */; };
+		D5DA0E9B2D54BC980019AE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E992D54BC980019AE37 /* LaunchScreen.storyboard */; };
+		D5DA0E9E2D54BC980019AE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E9C2D54BC980019AE37 /* Main.storyboard */; };
+		D5DA0EA72D54BC980019AE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0EA62D54BC980019AE37 /* AppDelegate.swift */; };
+		D5DA0EAA2D54BC980019AE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EA82D54BC980019AE37 /* Main.storyboard */; };
+		D5DA0EB22D54BC980019AE37 /* Unshittify Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5DA0EB12D54BC980019AE37 /* Unshittify Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5DA0EBC2D54BC980019AE37 /* Unshittify Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5DA0EBB2D54BC980019AE37 /* Unshittify Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5DA0EC22D54BC980019AE37 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E852D54BC970019AE37 /* Main.html */; };
+		D5DA0EC32D54BC980019AE37 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E852D54BC970019AE37 /* Main.html */; };
+		D5DA0EC42D54BC980019AE37 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E872D54BC970019AE37 /* Icon.png */; };
+		D5DA0EC52D54BC980019AE37 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E872D54BC970019AE37 /* Icon.png */; };
+		D5DA0EC62D54BC980019AE37 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E882D54BC970019AE37 /* Style.css */; };
+		D5DA0EC72D54BC980019AE37 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E882D54BC970019AE37 /* Style.css */; };
+		D5DA0EC82D54BC980019AE37 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E892D54BC970019AE37 /* Script.js */; };
+		D5DA0EC92D54BC980019AE37 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E892D54BC970019AE37 /* Script.js */; };
+		D5DA0ECA2D54BC980019AE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0E8A2D54BC970019AE37 /* ViewController.swift */; };
+		D5DA0ECB2D54BC980019AE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0E8A2D54BC970019AE37 /* ViewController.swift */; };
+		D5DA0ECC2D54BC980019AE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E8B2D54BC980019AE37 /* Assets.xcassets */; };
+		D5DA0ECD2D54BC980019AE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0E8B2D54BC980019AE37 /* Assets.xcassets */; };
+		D5DA0ECE2D54BC980019AE37 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0E8D2D54BC980019AE37 /* SafariWebExtensionHandler.swift */; };
+		D5DA0ECF2D54BC980019AE37 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0E8D2D54BC980019AE37 /* SafariWebExtensionHandler.swift */; };
+		D5DA0EE52D54BC980019AE37 /* js.js in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE12D54BC980019AE37 /* js.js */; };
+		D5DA0EE62D54BC980019AE37 /* updates.json in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE22D54BC980019AE37 /* updates.json */; };
+		D5DA0EE72D54BC980019AE37 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE32D54BC980019AE37 /* icons */; };
+		D5DA0EE82D54BC980019AE37 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE42D54BC980019AE37 /* manifest.json */; };
+		D5DA0EE92D54BC980019AE37 /* js.js in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE12D54BC980019AE37 /* js.js */; };
+		D5DA0EEA2D54BC980019AE37 /* updates.json in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE22D54BC980019AE37 /* updates.json */; };
+		D5DA0EEB2D54BC980019AE37 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE32D54BC980019AE37 /* icons */; };
+		D5DA0EEC2D54BC980019AE37 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0EE42D54BC980019AE37 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DA0EB32D54BC980019AE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DA0E7F2D54BC960019AE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DA0EB02D54BC980019AE37;
+			remoteInfo = "Unshittify Extension (iOS)";
+		};
+		D5DA0EBD2D54BC980019AE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DA0E7F2D54BC960019AE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DA0EBA2D54BC980019AE37;
+			remoteInfo = "Unshittify Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5DA0ED52D54BC980019AE37 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5DA0EB22D54BC980019AE37 /* Unshittify Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EDC2D54BC980019AE37 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5DA0EBC2D54BC980019AE37 /* Unshittify Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5DA0E862D54BC970019AE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		D5DA0E872D54BC970019AE37 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D5DA0E882D54BC970019AE37 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D5DA0E892D54BC970019AE37 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D5DA0E8A2D54BC970019AE37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5DA0E8B2D54BC980019AE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DA0E8D2D54BC980019AE37 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D5DA0E922D54BC980019AE37 /* Unshittify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unshittify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DA0E952D54BC980019AE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5DA0E972D54BC980019AE37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5DA0E9A2D54BC980019AE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DA0E9D2D54BC980019AE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DA0E9F2D54BC980019AE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DA0EA42D54BC980019AE37 /* Unshittify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unshittify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DA0EA62D54BC980019AE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5DA0EA92D54BC980019AE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DA0EAB2D54BC980019AE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DA0EAC2D54BC980019AE37 /* Unshittify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unshittify.entitlements; sourceTree = "<group>"; };
+		D5DA0EB12D54BC980019AE37 /* Unshittify Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Unshittify Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DA0EB62D54BC980019AE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DA0EBB2D54BC980019AE37 /* Unshittify Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Unshittify Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DA0EC02D54BC980019AE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DA0EC12D54BC980019AE37 /* Unshittify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unshittify.entitlements; sourceTree = "<group>"; };
+		D5DA0EE12D54BC980019AE37 /* js.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = js.js; path = ../../firefox/js.js; sourceTree = "<group>"; };
+		D5DA0EE22D54BC980019AE37 /* updates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = updates.json; path = ../../firefox/updates.json; sourceTree = "<group>"; };
+		D5DA0EE32D54BC980019AE37 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../firefox/icons; sourceTree = "<group>"; };
+		D5DA0EE42D54BC980019AE37 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../firefox/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DA0E8F2D54BC980019AE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EA12D54BC980019AE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EAE2D54BC980019AE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EB82D54BC980019AE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DA0E7E2D54BC960019AE37 = {
+			isa = PBXGroup;
+			children = (
+				D5DA0E832D54BC970019AE37 /* Shared (App) */,
+				D5DA0E8C2D54BC980019AE37 /* Shared (Extension) */,
+				D5DA0E942D54BC980019AE37 /* iOS (App) */,
+				D5DA0EA52D54BC980019AE37 /* macOS (App) */,
+				D5DA0EB52D54BC980019AE37 /* iOS (Extension) */,
+				D5DA0EBF2D54BC980019AE37 /* macOS (Extension) */,
+				D5DA0E932D54BC980019AE37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DA0E832D54BC970019AE37 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0E8A2D54BC970019AE37 /* ViewController.swift */,
+				D5DA0E8B2D54BC980019AE37 /* Assets.xcassets */,
+				D5DA0E842D54BC970019AE37 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D5DA0E842D54BC970019AE37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0E852D54BC970019AE37 /* Main.html */,
+				D5DA0E872D54BC970019AE37 /* Icon.png */,
+				D5DA0E882D54BC970019AE37 /* Style.css */,
+				D5DA0E892D54BC970019AE37 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5DA0E8C2D54BC980019AE37 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0EE02D54BC980019AE37 /* Resources */,
+				D5DA0E8D2D54BC980019AE37 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D5DA0E932D54BC980019AE37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0E922D54BC980019AE37 /* Unshittify.app */,
+				D5DA0EA42D54BC980019AE37 /* Unshittify.app */,
+				D5DA0EB12D54BC980019AE37 /* Unshittify Extension.appex */,
+				D5DA0EBB2D54BC980019AE37 /* Unshittify Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DA0E942D54BC980019AE37 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0E952D54BC980019AE37 /* AppDelegate.swift */,
+				D5DA0E972D54BC980019AE37 /* SceneDelegate.swift */,
+				D5DA0E992D54BC980019AE37 /* LaunchScreen.storyboard */,
+				D5DA0E9C2D54BC980019AE37 /* Main.storyboard */,
+				D5DA0E9F2D54BC980019AE37 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		D5DA0EA52D54BC980019AE37 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0EA62D54BC980019AE37 /* AppDelegate.swift */,
+				D5DA0EA82D54BC980019AE37 /* Main.storyboard */,
+				D5DA0EAB2D54BC980019AE37 /* Info.plist */,
+				D5DA0EAC2D54BC980019AE37 /* Unshittify.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D5DA0EB52D54BC980019AE37 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0EB62D54BC980019AE37 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D5DA0EBF2D54BC980019AE37 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0EC02D54BC980019AE37 /* Info.plist */,
+				D5DA0EC12D54BC980019AE37 /* Unshittify.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D5DA0EE02D54BC980019AE37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA0EE12D54BC980019AE37 /* js.js */,
+				D5DA0EE22D54BC980019AE37 /* updates.json */,
+				D5DA0EE32D54BC980019AE37 /* icons */,
+				D5DA0EE42D54BC980019AE37 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DA0E912D54BC980019AE37 /* Unshittify (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DA0ED62D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify (iOS)" */;
+			buildPhases = (
+				D5DA0E8E2D54BC980019AE37 /* Sources */,
+				D5DA0E8F2D54BC980019AE37 /* Frameworks */,
+				D5DA0E902D54BC980019AE37 /* Resources */,
+				D5DA0ED52D54BC980019AE37 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DA0EB42D54BC980019AE37 /* PBXTargetDependency */,
+			);
+			name = "Unshittify (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Unshittify (iOS)";
+			productReference = D5DA0E922D54BC980019AE37 /* Unshittify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DA0EA32D54BC980019AE37 /* Unshittify (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DA0EDD2D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify (macOS)" */;
+			buildPhases = (
+				D5DA0EA02D54BC980019AE37 /* Sources */,
+				D5DA0EA12D54BC980019AE37 /* Frameworks */,
+				D5DA0EA22D54BC980019AE37 /* Resources */,
+				D5DA0EDC2D54BC980019AE37 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DA0EBE2D54BC980019AE37 /* PBXTargetDependency */,
+			);
+			name = "Unshittify (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Unshittify (macOS)";
+			productReference = D5DA0EA42D54BC980019AE37 /* Unshittify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DA0EB02D54BC980019AE37 /* Unshittify Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DA0ED22D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify Extension (iOS)" */;
+			buildPhases = (
+				D5DA0EAD2D54BC980019AE37 /* Sources */,
+				D5DA0EAE2D54BC980019AE37 /* Frameworks */,
+				D5DA0EAF2D54BC980019AE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unshittify Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Unshittify Extension (iOS)";
+			productReference = D5DA0EB12D54BC980019AE37 /* Unshittify Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D5DA0EBA2D54BC980019AE37 /* Unshittify Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DA0ED92D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify Extension (macOS)" */;
+			buildPhases = (
+				D5DA0EB72D54BC980019AE37 /* Sources */,
+				D5DA0EB82D54BC980019AE37 /* Frameworks */,
+				D5DA0EB92D54BC980019AE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unshittify Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Unshittify Extension (macOS)";
+			productReference = D5DA0EBB2D54BC980019AE37 /* Unshittify Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DA0E7F2D54BC960019AE37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D5DA0E912D54BC980019AE37 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D5DA0EA32D54BC980019AE37 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D5DA0EB02D54BC980019AE37 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D5DA0EBA2D54BC980019AE37 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D5DA0E822D54BC960019AE37 /* Build configuration list for PBXProject "Unshittify" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DA0E7E2D54BC960019AE37;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D5DA0E932D54BC980019AE37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DA0E912D54BC980019AE37 /* Unshittify (iOS) */,
+				D5DA0EA32D54BC980019AE37 /* Unshittify (macOS) */,
+				D5DA0EB02D54BC980019AE37 /* Unshittify Extension (iOS) */,
+				D5DA0EBA2D54BC980019AE37 /* Unshittify Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DA0E902D54BC980019AE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0EC42D54BC980019AE37 /* Icon.png in Resources */,
+				D5DA0E9B2D54BC980019AE37 /* LaunchScreen.storyboard in Resources */,
+				D5DA0EC22D54BC980019AE37 /* Main.html in Resources */,
+				D5DA0EC82D54BC980019AE37 /* Script.js in Resources */,
+				D5DA0ECC2D54BC980019AE37 /* Assets.xcassets in Resources */,
+				D5DA0E9E2D54BC980019AE37 /* Main.storyboard in Resources */,
+				D5DA0EC62D54BC980019AE37 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EA22D54BC980019AE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0EC52D54BC980019AE37 /* Icon.png in Resources */,
+				D5DA0EC72D54BC980019AE37 /* Style.css in Resources */,
+				D5DA0EAA2D54BC980019AE37 /* Main.storyboard in Resources */,
+				D5DA0EC92D54BC980019AE37 /* Script.js in Resources */,
+				D5DA0ECD2D54BC980019AE37 /* Assets.xcassets in Resources */,
+				D5DA0EC32D54BC980019AE37 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EAF2D54BC980019AE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0EEC2D54BC980019AE37 /* manifest.json in Resources */,
+				D5DA0EEB2D54BC980019AE37 /* icons in Resources */,
+				D5DA0EEA2D54BC980019AE37 /* updates.json in Resources */,
+				D5DA0EE92D54BC980019AE37 /* js.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EB92D54BC980019AE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0EE82D54BC980019AE37 /* manifest.json in Resources */,
+				D5DA0EE72D54BC980019AE37 /* icons in Resources */,
+				D5DA0EE62D54BC980019AE37 /* updates.json in Resources */,
+				D5DA0EE52D54BC980019AE37 /* js.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DA0E8E2D54BC980019AE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0ECA2D54BC980019AE37 /* ViewController.swift in Sources */,
+				D5DA0E962D54BC980019AE37 /* AppDelegate.swift in Sources */,
+				D5DA0E982D54BC980019AE37 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EA02D54BC980019AE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0ECB2D54BC980019AE37 /* ViewController.swift in Sources */,
+				D5DA0EA72D54BC980019AE37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EAD2D54BC980019AE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0ECE2D54BC980019AE37 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DA0EB72D54BC980019AE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DA0ECF2D54BC980019AE37 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DA0EB42D54BC980019AE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DA0EB02D54BC980019AE37 /* Unshittify Extension (iOS) */;
+			targetProxy = D5DA0EB32D54BC980019AE37 /* PBXContainerItemProxy */;
+		};
+		D5DA0EBE2D54BC980019AE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DA0EBA2D54BC980019AE37 /* Unshittify Extension (macOS) */;
+			targetProxy = D5DA0EBD2D54BC980019AE37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DA0E852D54BC970019AE37 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DA0E862D54BC970019AE37 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D5DA0E992D54BC980019AE37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DA0E9A2D54BC980019AE37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DA0E9C2D54BC980019AE37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DA0E9D2D54BC980019AE37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DA0EA82D54BC980019AE37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DA0EA92D54BC980019AE37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DA0ED02D54BC980019AE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5DA0ED12D54BC980019AE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D5DA0ED32D54BC980019AE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unshittify Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_NAME = "Unshittify Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5DA0ED42D54BC980019AE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unshittify Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_NAME = "Unshittify Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DA0ED72D54BC980019AE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Unshittify;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_NAME = Unshittify;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5DA0ED82D54BC980019AE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Unshittify;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_NAME = Unshittify;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DA0EDA2D54BC980019AE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Unshittify.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unshittify Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_NAME = "Unshittify Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5DA0EDB2D54BC980019AE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Unshittify.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unshittify Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_NAME = "Unshittify Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5DA0EDE2D54BC980019AE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Unshittify.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Unshittify;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_NAME = Unshittify;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5DA0EDF2D54BC980019AE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Unshittify.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Unshittify;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_NAME = Unshittify;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DA0E822D54BC960019AE37 /* Build configuration list for PBXProject "Unshittify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA0ED02D54BC980019AE37 /* Debug */,
+				D5DA0ED12D54BC980019AE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DA0ED22D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA0ED32D54BC980019AE37 /* Debug */,
+				D5DA0ED42D54BC980019AE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DA0ED62D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA0ED72D54BC980019AE37 /* Debug */,
+				D5DA0ED82D54BC980019AE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DA0ED92D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA0EDA2D54BC980019AE37 /* Debug */,
+				D5DA0EDB2D54BC980019AE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DA0EDD2D54BC980019AE37 /* Build configuration list for PBXNativeTarget "Unshittify (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA0EDE2D54BC980019AE37 /* Debug */,
+				D5DA0EDF2D54BC980019AE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DA0E7F2D54BC960019AE37 /* Project object */;
+}
