@@ -651,7 +651,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify.extension;
 				PRODUCT_NAME = "Unshittify Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -681,7 +681,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify.extension;
 				PRODUCT_NAME = "Unshittify Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -719,7 +719,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify;
 				PRODUCT_NAME = Unshittify;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -755,7 +755,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify;
 				PRODUCT_NAME = Unshittify;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -787,7 +787,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify.extension;
 				PRODUCT_NAME = "Unshittify Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -818,7 +818,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify.extension;
 				PRODUCT_NAME = "Unshittify Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -853,7 +853,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify;
 				PRODUCT_NAME = Unshittify;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -887,7 +887,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Unshittify;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.vasilis.unshittify;
 				PRODUCT_NAME = Unshittify;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
