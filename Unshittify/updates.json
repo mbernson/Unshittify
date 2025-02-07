@@ -13,6 +13,10 @@
 		{
 		  "version": "0.3.2",
 		  "update_link": "https://vasilis.codeberg.page/Unshittify/extensions/unshittify-0.3.2.xpi"
+		},
+		{
+		  "version": "0.3.5",
+		  "update_link": "https://vasilis.codeberg.page/Unshittify/extensions/unshittify-0.3.5.xpi"
 		}
 	  ]
 	}
