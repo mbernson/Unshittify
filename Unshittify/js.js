@@ -1,7 +1,7 @@
 function unshittify() {
 	'use strict';
 	var papers = [
-		['nrc.nl', ":not(body)[data-article-type],.nmt-item--latest-news,article.vorm__article,li[data-article-type]"],
+		['nrc.nl', ":not(body)[data-article-type],.nmt-item--latest-news,article.vorm__article,li[data-article-type],dmt-card-article"],
 		['parool.nl', "[data-topic],article#article-content > *,.section__header"],
 		['volkskrant.nl',"[data-topic],article#article-content > *,.section__header"],
 		['trouw.nl',"[data-topic],article#article-content > *,.section__header"],
@@ -15,15 +15,17 @@ function unshittify() {
 		['nytimes.com', ".story-wrapper,a[class*='css-']"],
 		['edition.cnn.com','.container_lead-package,.container__item,h1#maincontent,main.article__main'],
 		['foxnews.com','article[class*="article"]:not(.article-wrap),.article-wrap .article-header, .article-wrap .article-content, .recommended-item'],
-		['washingtonpost.com','[data-feature-id="homepage/story"],[aria-roledescription="slide"],[data-link-group="live-bar"] > li,.page-type--story-default header,.grid-main-standard article,[data-fy-surface="post-recommends-list"] li']
+		['washingtonpost.com','[data-feature-id="homepage/story"],[aria-roledescription="slide"],[data-link-group="live-bar"] > li,.page-type--story-default header,.grid-main-standard article,[data-fy-surface="post-recommends-list"] li'],
+		['reddit.com','shreddit-post, shreddit-comment, reddit-pdp-right-rail-post, details[role="article"]']
 	];
 	var words = ['trump','wilders','musk'];
 	var i = 0;
 	while (i < papers.length) {
 		var url = 'https://www.' + papers[i][0];
 		var url1 = 'https://' + papers[i][0];
-		var qs = document.querySelectorAll(papers[i][1]);
 		if( window.location.origin == url || window.location.origin == url1 ) {
+			var qs = document.querySelectorAll(papers[i][1]);
+			
 			doIt(qs,words);
 		}
 		i++;
@@ -33,8 +35,16 @@ function unshittify() {
 }
 
 unshittify();
+document.addEventListener("loadeddata", function() {
+	unshittify();
+	setTimeout(function(){unshittify()},2500);
+});
+window.addEventListener('scrollend', function() {
+	unshittify();
+});
 setTimeout(function(){unshittify()},500);
 setTimeout(function(){unshittify()},1500);
+// setTimeout(function(){unshittify()},5000);
 
 function doIt(para,words) {
 	var i = 0;

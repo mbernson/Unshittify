@@ -1,8 +1,8 @@
 {
   "manifest_version":2,
-  "version":"0.3.3",
+  "version":"0.3.5",
   "name":"Unshittify",
-  "description": "Replaces news about some shitty people with colours. Some newspapers are hooked on certain politicians who are experts in getting all the attention. With this add-on articles with these people will be replaced with colourful rectangles. It works on some sites.",
+  "description": "Replaces news item about some shitty people with coloured rectangles. Some newspapers are hooked on certain politicians who are experts in getting all the attention. With this add-on articles with these people will be replaced with colourful rectangles. It works on some sites.",
   "content_scripts":[
 	  {
 	   "matches":["<all_urls>"],
@@ -17,6 +17,7 @@
 	"browser_specific_settings": {
 	  "gecko": {
 		"id": "{5ac2baf2-243b-4e83-ae13-33c72eca181e}",
+		//"id": "{6794e3fd-eb95-486a-b495-3a9e116fcfbb}"
 		"update_url": "https://vasilis.codeberg.page/Unshittify/firefox/updates.json"
 	  }
 	}
