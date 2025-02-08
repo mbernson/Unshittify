@@ -11,7 +11,7 @@ function unshittify() {
 		['telegraaf.nl',"[data-vr-contentbox],.EditorsChoiceTeaser,.ColumnsTeaser"],
 		['demorgen.be',"[data-topic],article#article-content > *,.section__header"],
 		['standaard.be',"[data-mht-block] > div,[data-testid='article-teaser-list-item'],[data-mht-block='article-detail__article-body']"],
-		['theguardian.com', "li[class^='dcr-'],article[class^='dcr-'],h2[class^='dcr-']"],
+		['theguardian.com', "li[class^='dcr-'],h2[class^='dcr-'],[data-gu-name='body'],[data-gu-name='standfirst'],[data-gu-name='headline'],[data-gu-name='title'],[data-gu-name='media']"],
 		['nytimes.com', ".story-wrapper,a[class*='css-']"],
 		['edition.cnn.com','.container_lead-package,.container__item,h1#maincontent,main.article__main'],
 		['foxnews.com','article[class*="article"]:not(.article-wrap),.article-wrap .article-header, .article-wrap .article-content, .recommended-item'],
