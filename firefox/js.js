@@ -24,17 +24,17 @@ function unshittify() {
 		var url1 = 'https://' + papers[i][0];
 		var qs = document.querySelectorAll(papers[i][1]);
 		if( window.location.origin == url || window.location.origin == url1 ) {
-			doIt(qs,words);
+			doIt(qs, words);
 		}
 		i++;
 	}
-
-
 }
 
-unshittify();
-setTimeout(function(){unshittify()},500);
-setTimeout(function(){unshittify()},1500);
+window.addEventListener("load", function(event) {
+    unshittify();
+    setTimeout(function(){ unshittify(); }, 500);
+    setTimeout(function(){ unshittify(); }, 1500);
+});
 
 function doIt(para,words) {
 	var i = 0;
@@ -51,7 +51,7 @@ function replaceShittyElement(para){
 	para.style.background = 'hsl('+getRandomInt(1,360)+', 50%, 50%)';
 	para.style.position = 'relative';
 	para.style.overflow = 'hidden';
-	para.style.minHeight = '1.414rem';
+	para.style.minHeight = '100px';
 	para.querySelector('div').style.background = 'hsl('+getRandomInt(1,360)+', 50%, 50%)';
 	para.querySelector('div').style.position = 'absolute';
 	var w = getRandomInt(10,90);
@@ -62,12 +62,12 @@ function replaceShittyElement(para){
 	para.querySelector('div').style.left = getRandomInt(5,(95-w)) + '%';
 }
 
-
 function getRandomInt(min, max) {
 	min = Math.ceil(min);
 	max = Math.floor(max);
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
 function checkWord(p,arr) {
 	var ll = arr.length;
 	var i = 0;

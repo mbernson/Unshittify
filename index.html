@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unshittify firefox addon</title>
+	<link rel="stylesheet" href="https://webfonts.typotheque.com/WF-023273-012539.css">
+	<link rel="stylesheet" href="css.css">
+	<meta property="og:description" content="An add-on that replaces certain names with coloured rectangles.">
+	<meta property="og:image" content="screenshots/both.webp"> 
+	<meta property="og:image:alt" content="A screenshot of the NRC, and the Guardian newspapers, with wuite some articles replaced by a colourful rectangle.">
+	
+</head>
+
+
+<body>
+
+<h1>Unshittify, a firefox add-on</h1>
+
+<p>I stopped reading news sites when people like <span class="block">wilders</span> in the Netherlands, and <span class="block">trump</span> and <span class="block">musk</span> in the <abbr>US</abbr>, managed to take over the news completely. It stressed me out. That’s why I made this&nbsp;plugin.</p>
+<p>This plugin replaces all news items that mention these people’s names with inert, coloured rectangles. It helps with keeping me sane. It should also help newspapers with understanding that they give way too much attention to a few corrupt&nbsp;men.</p>
+
+<figure>
+	<img src="screenshots/both.webp" alt="A screenshot of the NRC, and the Guardian newspapers, with wuite some articles replaced by a colourful rectangle.">
+</figure>
+
+<p>The add-on only works on gecko browsers (firefox). You can <a href="https://vasilis.codeberg.page/Unshittify/extensions/unshittify-0.3.2.xpi">install it via this link</a>. I am not going to make a chrome version because I don’t want a google account. If you want a chrome extension, or a safari version, try to make one&nbsp;yourself.</p>
+
+<h2>Supported news sites</h2>
+<p>So far the following news site are&nbsp;supported:</p>
+
+<ul>
+	<li>nrc.nl</li>
+	<li>parool.nl</li>
+	<li>volkskrant.nl</li>
+	<li>trouw.nl</li>
+	<li>ad.nl</li>
+	<li>nos.nl</li>
+	<li>nu.nl</li>
+	<li>telegraaf.nl</li>
+	<li>demorgen.be</li>
+	<li>standaard.be</li>
+	<li>theguardian.com</li>
+	<li>nytimes.com*</li>
+	<li>edition.cnn.com</li>
+	<li>foxnews.com</li>
+	<li>washingtonpost.com</li>
+</ul>
+
+<p><em>* I can’t figure out how this site really works. The add-on unshittifies some news, but not&nbsp;all.</em></p>
+<p>If you want more news sites, <a href="https://codeberg.org/vasilis/Unshittify/issues">let me know</a>, I’ll try to add&nbsp;them.</p>
+
+<h2>Content warning: names you don’t want to read.</h2>
+
+<details>
+	<summary>The following strings are replaced with coloured&nbsp;rectangles.</summary>
+	<ul>
+		<li>wilders</li>
+		<li>trump</li>
+		<li>musk</li>
+	</ul>
+	<p>If you think more strings should be on this list, <a href="https://codeberg.org/vasilis/Unshittify/issues">let me know</a>. I <em>might</em> consider&nbsp;them.</p>
+</details>
+
+</body>
+</html>

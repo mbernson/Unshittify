@@ -1,0 +1,20 @@
+{
+  "addons": {
+	"{5ac2baf2-243b-4e83-ae13-33c72eca181e}": {
+	  "updates": [
+		{
+		  "version": "0.1",
+		  "update_link": "https://vasilis.codeberg.page/Unshittify/extensions/unshittify-0.1.xpi"
+		},
+		{
+		  "version": "0.2",
+		  "update_link": "https://vasilis.codeberg.page/Unshittify/extensions/unshittify-0.2.xpi"
+		},
+		{
+		  "version": "0.3.2",
+		  "update_link": "https://vasilis.codeberg.page/Unshittify/extensions/unshittify-0.3.2.xpi"
+		}
+	  ]
+	}
+  }
+}
