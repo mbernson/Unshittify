@@ -22,7 +22,9 @@
         "https://foxnews.com/*", "https://www.foxnews.com/*",
         "https://washingtonpost.com/*", "https://www.washingtonpost.com/*"
       ],
-      "js": ["js.js"]
+      "js": ["js.js"],
+      "css": ["unshittify.css"],
+      "run_at": "document_start"
     }
   ],
   "icons": {

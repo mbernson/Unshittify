@@ -1,0 +1,23 @@
+/* An item that mentions one of the names: a coloured block with a smaller rectangle on top.
+   The colours and the rectangle's position are set per item by js.js. */
+[data-unshittified] {
+	position: relative !important;
+	overflow: hidden !important;
+	min-height: 1.414rem !important;
+	background: var(--unshittify-outer) !important;
+	color: transparent !important;
+}
+[data-unshittified] > * {
+	visibility: hidden !important;
+}
+[data-unshittified]::after {
+	content: '' !important;
+	display: block !important;
+	position: absolute !important;
+	top: var(--unshittify-top) !important;
+	left: var(--unshittify-left) !important;
+	width: var(--unshittify-width) !important;
+	height: var(--unshittify-height) !important;
+	background: var(--unshittify-inner) !important;
+	visibility: visible !important;
+}

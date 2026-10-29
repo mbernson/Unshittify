@@ -11,7 +11,7 @@ set -eu
 
 APP_NAME=Unshittify
 BUNDLE_ID=nl.duckson.Unshittify
-EXTENSION_FILES="manifest.json js.js icons"
+EXTENSION_FILES="manifest.json js.js unshittify.css icons"
 
 cd "$(dirname "$0")/.."
 ROOT=$(pwd)
