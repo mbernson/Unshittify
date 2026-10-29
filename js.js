@@ -4,20 +4,20 @@
 	// [hostname without www., selector for the news items on that site]
 	const papers = [
 		['nrc.nl', ":not(body)[data-article-type],.nmt-item--latest-news,article.vorm__article,li[data-article-type]"],
-		['parool.nl', "[data-topic],article#article-content > *,.section__header"],
-		['volkskrant.nl',"[data-topic],article#article-content > *,.section__header"],
-		['trouw.nl',"[data-topic],article#article-content > *,.section__header"],
-		['ad.nl',".ankeiler,li.tile,.article,.comments__list-item"],
-		['nos.nl',".ewQaSS,li[class^='sc-'],html:has([content='article']) main,html:has([content='video']) main"],
-		['nu.nl',".contentlist__item,[data-gtm='article']"],
-		['telegraaf.nl',"[data-vr-contentbox],.EditorsChoiceTeaser,.ColumnsTeaser"],
+		['parool.nl', "[data-category='teaser'],article#article-content > *,h2"],
+		['volkskrant.nl',"[data-category='teaser'],article#article-content > *,h2"],
+		['trouw.nl',"[data-category='teaser'],article#article-content > *,h2"],
+		['ad.nl',".ankeiler,li.tile,.article,.comments__list-item,article#article-content > *"],
+		['nos.nl',"main li:has(> a),html:has([content='article']) main,html:has([content='video']) main"],
+		['nu.nl',".contentlist__item,[data-gtm='article'],.carousel-vertical-videos__item"],
+		['telegraaf.nl',"article[data-article-id]"],
 		['demorgen.be',"[data-topic],article#article-content > *,.section__header"],
-		['standaard.be',"[data-mht-block] > div,[data-testid='article-teaser-list-item'],[data-mht-block='article-detail__article-body']"],
+		['standaard.be',"article"],
 		['theguardian.com', "li[class^='dcr-'],article[class^='dcr-'],h2[class^='dcr-']"],
-		['nytimes.com', ".story-wrapper,a[class*='css-']"],
+		['nytimes.com', ".story-wrapper,a[class*='css-'],main nav li"],
 		['edition.cnn.com','.container_lead-package,.container__item,h1#maincontent,main.article__main'],
 		['foxnews.com','article[class*="article"]:not(.article-wrap),.article-wrap .article-header, .article-wrap .article-content, .recommended-item'],
-		['washingtonpost.com','[data-feature-id="homepage/story"],[aria-roledescription="slide"],[data-link-group="live-bar"] > li,.page-type--story-default header,.grid-main-standard article,[data-fy-surface="post-recommends-list"] li']
+		['washingtonpost.com','[data-feature-id="homepage/story"],[aria-roledescription="slide"],[data-link-group="live-bar"] > li,[data-link-group="trending-bar"] > li,.page-type--story-default header,.grid-main-standard article,[data-fy-surface="post-recommends-list"] li']
 	];
 	// Whole words only, so "muskiet" is left alone. The optional s catches Dutch possessives like "Trumps".
 	const words = /\b(trump|wilders|musk)s?\b/i;
@@ -40,8 +40,16 @@
 		item.inert = true;
 	}
 
+	// Tests each text node on its own: item.textContent glues neighbouring elements
+	// together ("NieuwsTrump"), which defeats the whole-word match.
+	function mentions(item) {
+		const walker = document.createTreeWalker(item, NodeFilter.SHOW_TEXT);
+		while (walker.nextNode()) if (words.test(walker.currentNode.data)) return true;
+		return false;
+	}
+
 	function check(item) {
-		if (!item.closest('[data-unshittified]') && words.test(item.textContent)) cover(item);
+		if (!item.closest('[data-unshittified]') && mentions(item)) cover(item);
 	}
 
 	// The items in and around a changed node. A change inside an item can be the text
