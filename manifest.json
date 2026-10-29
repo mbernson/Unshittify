@@ -1,22 +1,38 @@
 {
-  "manifest_version":2,
-  "version":"0.3.1",
-  "name":"Unshittify",
+  "manifest_version": 3,
+  "version": "0.4.0",
+  "name": "Unshittify",
   "description": "Replaces news about some shitty people with colours. Some newspapers are hooked on certain politicians who are experts in getting all the attention. With this add-on articles with these people will be replaced with colourful rectangles. It works on some sites.",
-  "content_scripts":[
-	  {
-	   "matches":["<all_urls>"],
-	   "js":["js.js"]
-	  }
-	],
-	"icons": {
-	  "48": "icons/border-48.png",
-	  "96": "icons/border-96.png",
-	  "128": "icons/border-128.png"
-	},
-	"browser_specific_settings": {
-	  "gecko": {
-		"id": "{5ac2baf2-243b-4e83-ae13-33c72eca181e}"
-	  }
-	}
+  "content_scripts": [
+    {
+      "matches": [
+        "https://nrc.nl/*", "https://www.nrc.nl/*",
+        "https://parool.nl/*", "https://www.parool.nl/*",
+        "https://volkskrant.nl/*", "https://www.volkskrant.nl/*",
+        "https://trouw.nl/*", "https://www.trouw.nl/*",
+        "https://ad.nl/*", "https://www.ad.nl/*",
+        "https://nos.nl/*", "https://www.nos.nl/*",
+        "https://nu.nl/*", "https://www.nu.nl/*",
+        "https://telegraaf.nl/*", "https://www.telegraaf.nl/*",
+        "https://demorgen.be/*", "https://www.demorgen.be/*",
+        "https://standaard.be/*", "https://www.standaard.be/*",
+        "https://theguardian.com/*", "https://www.theguardian.com/*",
+        "https://nytimes.com/*", "https://www.nytimes.com/*",
+        "https://edition.cnn.com/*",
+        "https://foxnews.com/*", "https://www.foxnews.com/*",
+        "https://washingtonpost.com/*", "https://www.washingtonpost.com/*"
+      ],
+      "js": ["js.js"]
+    }
+  ],
+  "icons": {
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png",
+    "128": "icons/border-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{5ac2baf2-243b-4e83-ae13-33c72eca181e}"
+    }
+  }
 }
